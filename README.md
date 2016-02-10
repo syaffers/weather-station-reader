@@ -3,9 +3,14 @@ Personal RasPi weather station code so I don't forget how to set stuff up again
 
 ## You forgot again didn't you...
 
+Make sure you enable GPIO and SPI on the Pi
+
+    sudo raspi-config
+
 Install stuff:
 
     sudo apt-get install build-essential python-dev
+    pip install spidev
 
 Get and install the Adafruit DHT library:
 
